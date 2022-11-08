@@ -1,0 +1,15 @@
+body {
+   padding: 0;
+   margin: 0;
+   font-family: Calibri, sans-serif;
+}
+div {
+  font-size: 1.1em;
+
+}
+
+#map {
+   position: absolute;
+   width: 100vw;
+   height: 90vh;
+}
