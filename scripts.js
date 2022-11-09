@@ -1,6 +1,6 @@
 var map = L.map('map').setView([47.598,-122.311],9);
   // Base map is added here, there is a access togen generated from the mapbox account
-  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/256/{z}/{x}/{y}?access_token={accessToken}', {
+  L.tileLayer('https://api.mapbox.com/styles/v1/daeleng/cla8pwozb000015mpwznmq0eg/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZGFlbGVuZyIsImEiOiJjbDl5d3h6NzkwOTdoM29xb20xYzJ3NmZsIn0.sMhj9jD84igqnZdX08l33A/draft', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       maxZoom: 18,
       id: 'mapbox/streets-v11',
