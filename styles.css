@@ -6,9 +6,15 @@ body {
 /* this style was added to make the notification of the clickable map more vissable */
 div {
   font-size: 1.1em;
-
+  background-color: 'white';
 }
 
+#mapDiv {
+  background-color: 'white';
+}
+p {
+  color: white;
+}	
 #map {
    position: absolute;
    width: 100vw;

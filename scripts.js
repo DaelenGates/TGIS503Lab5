@@ -1,10 +1,10 @@
 var map = L.map('map').setView([47.598,-122.311],9);
   // Base map is added here, there is a access togen generated from the mapbox account
-  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/256/{z}/{x}/{y}?access_token={accessToken}', {
+  L.tileLayer('https://api.mapbox.com/styles/v1/daeleng/cla8pwozb000015mpwznmq0eg/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZGFlbGVuZyIsImEiOiJjbDl5d3h6NzkwOTdoM29xb20xYzJ3NmZsIn0.sMhj9jD84igqnZdX08l33A', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       maxZoom: 18,
       id: 'mapbox/streets-v11',
-      accessToken: 'pk.eyJ1IjoiZGFlbGVuZyIsImEiOiJjbGE4MnNpbjQwMHgxM29vMG1xNXA0YjR3In0.1m-yZapuOVRg2zWL8fimbw',
+      accessToken: 'pk.eyJ1IjoiZGFlbGVuZyIsImEiOiJjbDl5d3h6NzkwOTdoM29xb20xYzJ3NmZsIn0.sMhj9jD84igqnZdX08l33A',
   }).addTo(map);
 // this function is to create buttons from clicking on the map on the screen
 function createButton(label, container) {
@@ -53,8 +53,8 @@ L.Control.textbox = L.Control.extend({
        		onAdd: function(map) {
 
        		var text = L.DomUtil.create('div');
-       		text.id = "instructions on the routing";
-       		text.innerHTML = "<strong>Click on the map to set the starting and finishing locations!</strong>"
+       		text.id = "mapDiv";
+       		text.innerHTML = "<p style = 'color:white'><strong>Click on the map to set the starting and finishing locations!</strong></p>"
        		return text;
        		},
 
